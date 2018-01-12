@@ -1,0 +1,15 @@
+{
+  "name": "mc-mobile-api",
+  "version": "1.0.0",
+  "description": "API destinada para fins de estudo do minicurso de mobile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "mc-mobile-api"
+  },
+  "author": "morgenstern.diego@gmail.com",
+  "license": "ISC"
+}
