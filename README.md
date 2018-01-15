@@ -1,6 +1,6 @@
 # RESTful API in Node, Express and MongoDB
 
-API destinada para utilização no minicurso de mobile
+API intended for use in the mini-course of mobile
 
 ## Requirements
 
