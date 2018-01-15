@@ -37,7 +37,7 @@ exports.delete = function(req, res) {
         _id: req.params.id
     }, function(err, clifor) {
         if (err) res.send(err);
-        res.json({ message: 'Clifor cadastrado com sucesso' });
+        res.json({ message: 'Clifor excluído com sucesso' });
     });
 };
 
