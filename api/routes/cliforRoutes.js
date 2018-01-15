@@ -1,13 +1,13 @@
 'use strict';
 module.exports = function(app) {
-    var clifor = require('../controllers/cliforController');
+    var cliforCtrl = require('../controllers/cliforController');
 
     app.route('/clifors')
-        .get(clifor.list)
-        .post(clifor.create);
+        .get(cliforCtrl.list)
+        .post(cliforCtrl.create);
 
-    app.rout('/clifors/:id')
-        .get(clifor.get)
-        .put(clifor.update)
-        .delete(clifor.delete);
+    app.route('/clifors/:id')
+        .get(cliforCtrl.get)
+        .put(cliforCtrl.update)
+        .delete(cliforCtrl.delete);
 };
