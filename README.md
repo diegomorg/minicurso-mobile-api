@@ -16,16 +16,16 @@ API para fins de estudo no minicurso de mobile
 Você poderá testar as requisições HTTP com alguma ferramenta auxiliar, como o [Postman](https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop) ou [Advanced Rest Client](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo)
 
 ### [POST /clifors]()
-- Cria um novo Clifor
+Cria um novo Clifor
 
 ### [GET /clifors]()
-- Retorna uma lista de Clifors
+Retorna uma lista de Clifors
 
 ### [GET /clifors/:id]() 
-- Retorna um Clifor
+Retorna um Clifor
 
 ### [PUT /clifors/:id]()
-- Atualiza um Clifor
+Atualiza um Clifor
 
 ### [DELETE /clifors/:id]()
-- Remove um Clifor
+Remove um Clifor
