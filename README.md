@@ -1,16 +1,16 @@
-# RESTful API in Node, Express and MongoDB
+# API RESTfull desenvolvida com Node, Express e MongoDB
 
-API intended for use in the mini-course of mobile
+API para fins de estudo no minicurso de mobile
 
-## Requirements
+## Requisitos
 
-- Node and npm
+- [Node](https://nodejs.org/en/download/) e [NPM](https://www.npmjs.com/get-npm) (já incluso)
 
-## Installation
+## Instalação
 
-- Clone the repo: `git clone https://diego_m@bitbucket.org/diego_m/mc-mobile-api.git`
-- Install dependencies: `npm install`
-- Start the server: `npm start`
+- Clone o repositório: `git clone https://diego_m@bitbucket.org/diego_m/mc-mobile-api.git`
+- Instale as dependências: `npm install`
+- Inicie o servidor: `npm start`
 
-## Testing the API
-Test your API using [Postman](https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop)
+## Testando a API
+Poderá testar as requisições à API com o [Postman](https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop)
