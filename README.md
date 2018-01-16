@@ -14,3 +14,9 @@ API para fins de estudo no minicurso de mobile
 
 ## Testando a API
 Você poderá testar as requisições HTTP com alguma ferramenta auxiliar, como o [Postman](https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop) ou [Advanced Rest Client](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo)
+
+### [POST   /clifors]     -> cria um novo Clifor
+### [GET    /clifors]     -> retorna uma lista de Clifors
+### [GET    /clifors/:id] -> retorna um Clifor
+### [PUT    /clifors/:id] -> atualiza um Clifor
+### [DELETE /clifors/:id] -> remove um Clifor
