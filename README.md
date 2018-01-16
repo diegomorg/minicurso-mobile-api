@@ -31,7 +31,7 @@ Atualiza um Clifor
 Remove um Clifor
 
 
-### Tutorial para instalar o MongoDB localmente e iniciá-lo como um serviço ###
+## Tutorial para instalar o MongoDB localmente e iniciá-lo como um serviço ##
 - criar pasta `mkdir c:\data\db`
 - criar pasta `mkdir c:\data\log`
 - criar o arquivo `C:\mongodb\mongod.cfg`
