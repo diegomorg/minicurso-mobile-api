@@ -1,4 +1,4 @@
-# API RESTfull desenvolvida com Node, Express e MongoDB
+# API RESTfull desenvolvida com Node, [Express](http://expressjs.com/pt-br/) e [MongoDB](https://www.mongodb.com/what-is-mongodb)
 
 API para fins de estudo no minicurso de mobile
 
@@ -13,4 +13,4 @@ API para fins de estudo no minicurso de mobile
 - Inicie o servidor: `npm start`
 
 ## Testando a API
-Poderá testar as requisições à API com o [Postman](https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop)
+Você poderá testar as requisições HTTP com alguma ferramenta auxiliar, como o [Postman](https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop)
