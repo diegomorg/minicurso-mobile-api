@@ -15,7 +15,8 @@ API para fins de estudo no minicurso de mobile
 ## Testando a API
 Você poderá testar as requisições HTTP com alguma ferramenta auxiliar, como o [Postman](https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop) ou [Advanced Rest Client](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo)
 
-## Tutorial para instalar o MongoDB localmente e iniciá-lo como um serviço ##
+
+## Tutorial para instalar o MongoDB localmente e iniciá-lo como um serviço
 - criar pasta `C:\mongodb\data\db`
 - criar pasta `C:\mongodb\data\log`
 - criar o arquivo `C:\mongodb\data\log\log.txt`
@@ -29,3 +30,5 @@ Você poderá testar as requisições HTTP com alguma ferramenta auxiliar, como 
 ```
 - executar o comando de criação do serviço `sc.exe create MongoDB binPath= "C:\Program Files\MongoDB\Server\3.6\bin\mongod.exe --service --config=\"C:\mongodb\mongod.cfg\"" DisplayName= "MongoDB" start= "auto"`
 - executar o comando (administrador) para iniciar o serviço `net start MongoDB`
+
+> PS: a variável MONGO_DB, localizada no arquivo .env deverá ser substituída por `mongodb://localhost/nome_do_seu_banco`
