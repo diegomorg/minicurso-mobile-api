@@ -20,12 +20,12 @@ Você poderá testar as requisições HTTP com alguma ferramenta auxiliar, como 
 - criar pasta `C:\mongodb\data\log`
 - criar o arquivo `C:\mongodb\data\log\log.txt`
 - criar o arquivo `C:\mongodb\mongod.cfg` com o seguinte conteúdo:
-	```
+```
 	systemLog:
 		destination: file
 		path: C:\mongodb\data\log\mongod.log
 	storage:
 		dbPath: C:\mongodb\data\db
-	```
+```
 - executar o comando de criação do serviço `sc.exe create MongoDB binPath= "C:\Program Files\MongoDB\Server\3.6\bin\mongod.exe --service --config=\"C:\mongodb\mongod.cfg\"" DisplayName= "MongoDB" start= "auto"`
 - executar o comando (administrador) para iniciar o serviço `net start MongoDB`
