@@ -28,7 +28,7 @@ Você poderá testar as requisições HTTP com alguma ferramenta auxiliar, como 
 	storage:
 		dbPath: C:\mongodb\data\db
 ```
-- executar o comando de criação do serviço `sc.exe create MongoDB binPath= "C:\Program Files\MongoDB\Server\3.6\bin\mongod.exe --service --config=\"C:\mongodb\mongod.cfg\"" DisplayName= "MongoDB" start= "auto"`
-- executar o comando (administrador) para iniciar o serviço `net start MongoDB`
+- executar o comando (administrador) de criação do serviço `sc.exe create MongoDB binPath= "C:\Program Files\MongoDB\Server\3.6\bin\mongod.exe --service --config=\"C:\mongodb\mongod.cfg\"" DisplayName= "MongoDB" start= "auto"`
+- executar o comando para iniciar o serviço `net start MongoDB`
 
 > PS: a variável MONGO_DB, localizada no arquivo .env deverá ser substituída por `mongodb://localhost/nome_do_seu_banco`
