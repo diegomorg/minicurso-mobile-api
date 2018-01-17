@@ -15,20 +15,11 @@ API para fins de estudo no minicurso de mobile
 ## Testando a API
 Você poderá testar as requisições HTTP com alguma ferramenta auxiliar, como o [Postman](https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop) ou [Advanced Rest Client](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo)
 
-### [POST /clifors]()
-Cria um novo Clifor
-
-### [GET /clifors]()
-Retorna uma lista de Clifors
-
-### [GET /clifors/:id]() 
-Retorna um Clifor
-
-### [PUT /clifors/:id]()
-Atualiza um Clifor
-
-### [DELETE /clifors/:id]()
-Remove um Clifor
+### [POST /clifors]() ### `Cria um novo Clifor`
+### [GET /clifors]() ### `Retorna uma lista de Clifors`
+### [GET /clifors/:id]() ### `Retorna um Clifor`
+### [PUT /clifors/:id]() ### `Atualiza um Clifor`
+### [DELETE /clifors/:id]() ### `Remove um Clifor`
 
 
 ## Tutorial para instalar o MongoDB localmente e iniciá-lo como um serviço ##
