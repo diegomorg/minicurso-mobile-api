@@ -15,16 +15,17 @@ API para fins de estudo no minicurso de mobile
 ## Testando a API
 Você poderá testar as requisições HTTP com alguma ferramenta auxiliar, como o [Postman](https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop) ou [Advanced Rest Client](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo)
 
-### [POST /clifors]() ### `Cria um novo Clifor`
-### [GET /clifors]() ### `Retorna uma lista de Clifors`
-### [GET /clifors/:id]() ### `Retorna um Clifor`
-### [PUT /clifors/:id]() ### `Atualiza um Clifor`
-### [DELETE /clifors/:id]() ### `Remove um Clifor`
-
-
 ## Tutorial para instalar o MongoDB localmente e iniciá-lo como um serviço ##
-- criar pasta `mkdir c:\data\db`
-- criar pasta `mkdir c:\data\log`
-- criar o arquivo `C:\mongodb\mongod.cfg`
-- executar no terminal `sc.exe create MongoDB binPath= "C:\Program Files\MongoDB\Server\3.6\bin\mongod.exe --service --config=\"C:\mongodb\mongod.cfg\"" DisplayName= "MongoDB" start= "auto"`
-- iniciar o serviço `net start MongoDB`
+- criar pasta `C:\mongodb\data\db`
+- criar pasta `C:\mongodb\data\log`
+- criar o arquivo `C:\mongodb\data\log\log.txt`
+- criar o arquivo `C:\mongodb\mongod.cfg` com o seguinte conteúdo:
+	```
+	systemLog:
+		destination: file
+		path: C:\mongodb\data\log\mongod.log
+	storage:
+		dbPath: C:\mongodb\data\db
+	```
+- executar o comando de criação do serviço `sc.exe create MongoDB binPath= "C:\Program Files\MongoDB\Server\3.6\bin\mongod.exe --service --config=\"C:\mongodb\mongod.cfg\"" DisplayName= "MongoDB" start= "auto"`
+- executar o comando (administrador) para iniciar o serviço `net start MongoDB`
