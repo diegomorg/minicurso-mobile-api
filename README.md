@@ -2,7 +2,7 @@
 
 API para fins de estudo no minicurso de mobile
 
-* Repositório referente ao minicurso de mobile ministrado na empresa Maxicon Systems para alguns desenvolvedores internos
+Repositório referente ao minicurso de mobile ministrado na empresa Maxicon Systems para alguns desenvolvedores internos
 
 ## Requisitos
 
