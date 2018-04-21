@@ -2,6 +2,8 @@
 
 API para fins de estudo no minicurso de mobile
 
+* Repositório referente ao minicurso de mobile ministrado na empresa Maxicon Systems para alguns desenvolvedores internos
+
 ## Requisitos
 
 - [Node](https://nodejs.org/en/download/) e [NPM](https://www.npmjs.com/get-npm) (já incluso)
